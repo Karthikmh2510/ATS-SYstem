@@ -1,0 +1,28 @@
+Here I am trying to build an ATS Chat system which takes
+job descriptions listed in the job portal and user need to 
+upload their resume. 
+
+After, going through the resume, this system will suggest the 
+necessary changes, skill upgradation and, ATS score of that resume.
+
+
+
+Task need to be completed in following stpes:
+
+1. Creating a field to put job descriptions.
+2. It should accepts the PDF to be uploaded.
+3. Need to convert PDF to Image, this can be done by Google Gemini Pro model.
+4. Need to create multiple prompt template for different tasks.
+
+Most Important thing to do,
+Need to download zip file of Poppler and copy paste 
+Library and Share folders to "C" drive, program files(x86).
+Create a new folder poppler nd paste library and share folders.
+Next, add this bin path to environment variable in system.
+
+### app.py code contains the code which is quite
+difficult, as it converts the pdf to images and images to byte
+and then it processes using gemini model.
+
+### app1.py is simple, it extracts texts from PDF
+and use those text to get the output.
